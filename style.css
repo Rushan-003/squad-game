@@ -1,0 +1,43 @@
+:root {
+    --ost: #C33267;
+    --color: #fff;
+}
+
+body {
+    /* margin: 0px 150px; */
+    background-color: var(--ost) ;
+}
+
+header {
+    background-color: var(--color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_navigation {
+    display: flex;
+    
+}
+
+footer {
+    background-color: #6D5757 ;
+    color: var(--color);
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+p {
+    margin: 0px;
+}
+
+.element_header_navigation {
+    margin: 0px 75px;
+}
