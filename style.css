@@ -38,8 +38,16 @@ p {
     margin: 0px;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    margin: 0px;
+}
+
+hr {
+    margin: 0px;
+}
+
 .element_header_navigation {
-    margin: 0px 75px;
+    margin: 0px 45px;
 }
 
 .season_1 {
@@ -50,9 +58,48 @@ p {
 .series {
     width: 352px;
     height: 178px;
+
+    background-color: #d9d9d9;
 }
 
 img {
     width: inherit;
     height: inherit;
+}
+
+.movie {
+    margin: 0px 400px;
+    color: #fff;
+    /* background: rgba(9, 9, 9, 0.49); */
+}
+
+header {
+    padding: 0px 400px;
+}
+
+.season_2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-rows: repeat(3, 178px); */
+    gap: 55px 30px;
+
+}
+
+.element_season_2 {
+    background-color: #545454;
+    text-align: center;
+}
+
+.series_1-1 {
+    background-image: url(picture/image_series_1.png);
+    background-size: 100% 100%;
+    width: 352px;
+    height: 178px;
+}
+
+.series_name {
+    background-color: black;
+    opacity: 0.61;
+    position: sticky;
+    top: 300px;
 }
