@@ -42,6 +42,10 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0px;
 }
 
+section {
+    padding-top: 70px;
+    padding: 70px 400px 0px 400px;
+}
 hr {
     margin: 0px;
 }
@@ -53,6 +57,7 @@ hr {
 .season_1 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    gap: 55px 30px;
 }
 
 .series {
@@ -68,19 +73,20 @@ img {
 }
 
 .movie {
-    margin: 0px 400px;
+    /* padding: 0px 400px; */
     color: #fff;
-    /* background: rgba(9, 9, 9, 0.49); */
+    background: #671D39;
 }
 
 header {
     padding: 0px 400px;
+    width: 1120px;
 }
 
 .season_2 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    /* grid-template-rows: repeat(3, 178px); */
+    grid-template-rows: repeat(3, 178px);
     gap: 55px 30px;
 
 }
@@ -96,10 +102,67 @@ header {
     width: 352px;
     height: 178px;
 }
+.series_1-2 {
+    background-image: url(picture/image_series_2.png);
+    background-size: 100% 100%;
+    width: 352px;
+    height: 178px;
+}
+.series_1-3 {
+    background-image: url(picture/image_series_3.png);
+    background-size: 100% 100%;
+    width: 352px;
+    height: 178px;
+}
+.series_1-4 {
+    background-image: url(picture/image_series_4.png);
+    background-size: 100% 100%;
+    width: 352px;
+    height: 178px;
+}
+.series_1-5 {
+    background-image: url(picture/image_series_5.png);
+    background-size: 100% 100%;
+    width: 352px;
+    height: 178px;
+}
+.series_1-6 {
+    background-image: url(picture/image_series_6.png);
+    background-size: 100% 100%;
+    width: 352px;
+    height: 178px;
+}
+.series_1-7 {
+    background-image: url(picture/image_series_7.png);
+    background-size: 100% 100%;
+    width: 352px;
+    height: 178px;
+}
+.series_1-8 {
+    background-image: url(picture/image_series_8.png);
+    background-size: 100% 100%;
+    width: 352px;
+    height: 178px;
+}
+.series_1-9 {
+    background-image: url(picture/image_series_9.png);
+    background-size: 100% 100%;
+    width: 352px;
+    height: 178px;
+}
 
 .series_name {
     background-color: black;
     opacity: 0.61;
-    position: sticky;
-    top: 300px;
+    /* position: sticky;
+    top: 300px; */
+}
+
+.text_series_name {
+    color: white;
+    opacity: 1;
+}
+
+.header_movie {
+    text-align: center;
 }

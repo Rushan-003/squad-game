@@ -4,12 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Squad Game</title>
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="normalize.css">
-    
-    <style>
-        <?php echo file_get_contents("style.css"); ?>
-    </style>
+    <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
     <header>
@@ -19,9 +16,9 @@
         <nav>
             <ul class="header_navigation">
                 <li><a href="news.php" class="element_header_navigation">Новости</a></li>
-                <li><a href="series" class="element_header_navigation">Сериал</a></li>
-                <li><a href="shop" class="element_header_navigation">Магазин</a></li>
-                <li><a href="posters" class="element_header_navigation">Постеры</a></li>
+                <li><a href="series.php" class="element_header_navigation">Сериал</a></li>
+                <!-- <li><a href="shop" class="element_header_navigation">Магазин</a></li>
+                <li><a href="posters" class="element_header_navigation">Постеры</a></li> -->
             </ul>
         </nav>
     </header>

@@ -1,4 +1,14 @@
 <?php
+    // =============
+    $host = "mysql:host=MySQL-8.2";
+    $BD = "dbname=squad-game";
+    $port = "port=3306";
+    $root = "root";
+    $password = "";
+    // ==============
+
+
+    
     $name = $_POST['username'];
     $email = $_POST['email'];
     $feedback = $_POST['feedback'];
