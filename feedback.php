@@ -13,13 +13,3 @@
         </div>
         <button type="submit">Отправить</button>
     </form>
-
-    <section>
-        <div>
-            <h2>Комментарии:</h2>
-            <div>
-                <h3>Name</h3>
-                <p>Комментарий</p>
-            </div>
-        </div>
-    </section>
